@@ -13,5 +13,7 @@ USBゲームパッドとパソコンとPythonの開発環境が必要です。
 ソースコード内の変数「card_color」「card_serial」の内容を書き換えて、実行します。
 ゲームパッドの左アナログスティックで動かします。
 上下で前進／後退。左右でその場旋回をします。
+
+BUFFALOレトロ調USBゲームパッド(BSGP801)とXbox360コントローラで動作確認しました。
 ## Movie
 https://www.youtube.com/watch?v=2oBmjyul2Cg
