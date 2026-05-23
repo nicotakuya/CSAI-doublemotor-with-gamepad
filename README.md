@@ -15,5 +15,8 @@ USBゲームパッドとパソコンとPythonの開発環境が必要です。
 上下で前進／後退。左右でその場旋回をします。
 
 BUFFALOレトロ調USBゲームパッド(BSGP801)とXbox360コントローラで動作確認しました。
+## Screenshot
+<img width="642" height="512" alt="Image" src="https://github.com/user-attachments/assets/43d4253a-9812-4246-a377-3b13d56bd23f" />
+
 ## Movie
 https://www.youtube.com/watch?v=2oBmjyul2Cg
