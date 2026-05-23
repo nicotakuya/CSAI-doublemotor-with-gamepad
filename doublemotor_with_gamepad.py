@@ -15,9 +15,9 @@ import sys
 card_color = le.LEGO_COLOR_RED  # 動作環境に合わせて修正
 card_serial = '1309'            # 動作環境に合わせて修正
 
-SPEEDMAX = 30    # モーター最大速度
-THRESHOLD = 0.25 # レバーのしきい値
-TIMMING = 20     # コマンドの送信間隔[フレーム]
+SPEEDMAX = 30    # モーター最大速度(0 ~ 100)
+THRESHOLD = 0.25 # レバーのしきい値(0 ~ 1)
+TIMING = 20      # コマンドの送信間隔[フレーム]
 
 # DoubleMotor
 doublemotor = le.DoubleMotor()
@@ -116,7 +116,7 @@ while endflag != True:
         speed_right_old = speed_right
 
     pygame.display.flip()
-    loopcnt = (loopcnt+1) % TIMMING
+    loopcnt = (loopcnt+1) % TIMING
     clock.tick(60) # 60 FPS
 #
 doublemotor.disconnect()
