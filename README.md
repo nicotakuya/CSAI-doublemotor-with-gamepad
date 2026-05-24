@@ -1,4 +1,4 @@
-# CS&AI ダブルモーターをゲームパッドで動かすプログラム
+# ダブルモーターをゲームパッドで動かすプログラム
 <img width="887" height="320" alt="Image" src="https://github.com/user-attachments/assets/46e46b97-2367-4304-bdf4-be36b80f28ed" />
 
 ## 概要
@@ -16,7 +16,7 @@ BUFFALOレトロ調USBゲームパッド(BSGP801)とXbox360コントローラで
 
 (4)ソースコード内の変数「card_color」「card_serial」の内容を書き換えて、実行します。
 
-(5)ゲームパッドの左スティックで動かします。上下で前進／後退。左右でその場旋回をします。
+(5)ゲームパッドの左スティックで動かします。上下方向で前進／後退。左右方向でその場旋回をします。
 
 ## Screenshot
 <img width="642" height="512" alt="Image" src="https://github.com/user-attachments/assets/43d4253a-9812-4246-a377-3b13d56bd23f" />
